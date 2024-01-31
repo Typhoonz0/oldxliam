@@ -15,6 +15,23 @@
     font-family: 'Montserrat';font-size: 22px;
     background: #000000; 
              }
+     
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(0, 0, 0, 1);
+  border-top-left-radius:17px;
+  border-top-right-radius:17px;
+  border-bottom-left-radius:17px;
+  border-bottom-right-radius:17px;
+  box-shadow:inset 0px 0px 15px 3px rgba(74, 144, 226, 1);
+  text-shadow:inset 0px 1px 0px #263666;
+  background:linear-gradient(rgba(0, 97, 255, 1), #415989);
+}
    </style>
  
 </head>
@@ -23,15 +40,11 @@
   <header>
     <h1 style="background-color:DodgerBlue;font-size: 40px;text-align: center;"><b>xliam.xyz</b></h1>
   </header>
-<p>My links:</p>
-  <button onclick="window.location.href='https://steamcommunity.com/profiles/76561199223201894/';">
-   Steam
-  <button onclick="window.location.href='https://open.spotify.com/user/31f73romnhft7pojjsiwy3g5e54e?si=c36c7a0dd3ab481e';">
-   Spotify
-  <button onclick="window.location.href='https://discordapp.com/users/979865952462176276';">
-   Discord
-
-     
+<p style="font-color: #fffff0">My links:</p>
+  <a class="buttonClass" href="https://steamcommunity.com/profiles/76561199223201894/"> Steam</a>
+  <a class="buttonClass" href="https://open.spotify.com/user/31f73romnhft7pojjsiwy3g5e54e?si=c36c7a0dd3ab481e"> Spotify</a>
+  <a class="buttonClass" href="https://discordapp.com/users/979865952462176276/"> Discord</a>
+   
   <script src="script.js"></script>
 </body>
 
