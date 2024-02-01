@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--wallpaperb https://www.pixel4k.com/wp-content/uploads/2019/10/blue-abstract-gradient_1570394965.jpg.webp  -->
+<html>
+<!-- he he he haw -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href=".style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+             body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';font-size: 33px;
+  height: 1000px;
+  background-image: url("https://hdwpro.com/wp-content/uploads/2016/02/Free-1920x1080-Wallpaper.jpeg"); 
+  background-position: center;
+    text-align: center;
+    color: white;
+             }
+     
+.buttonClass {
+  font-size:15px;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  padding: 5px 10px;
+  border-color:rgba(0, 0, 0, 1);
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  background:#005199;
+}
+   </style>
+ 
+</head>
+
+<body>
+  <header>
+    <h1 style="background-color:DodgerBlue;font-size: 40px;text-align: center;"><b>My Socials:</b></h1>
+  </header>
+  <div>
+    <a class="buttonClass" href="https://steamcommunity.com/profiles/76561199223201894/"> Steam</a>
+  <a class="buttonClass" href="https://open.spotify.com/user/31f73romnhft7pojjsiwy3g5e54e?si=c36c7a0dd3ab481e"> Spotify</a>
+  <a class="buttonClass" href="https://discordapp.com/users/979865952462176276/"> Discord</a>
+  </div>
+</body>
+
+</html>
